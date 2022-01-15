@@ -4,7 +4,15 @@
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fericlewis%2Fswift-log-sentry%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/ericlewis/swift-log-sentry)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fericlewis%2Fswift-log-sentry%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/ericlewis/swift-log-sentry)
 
-A [Sentry](https://sentry.com) logging backend for [SwiftLog](https://github.com/apple/swift-log).
+A [Sentry](https://sentry.com) logging backend for [SwiftLog](https://github.com/apple/swift-log), 
+it works by creating and adding a [Breadcrumb](https://docs.sentry.io/platforms/apple/guides/ios/enriching-events/breadcrumbs/) for log events.
+
+## Features
+
+- Supports [metadata](https://github.com/apple/swift-log#logging-metadata) by inserting the key value pairs in the data property on a Breadcrumb. 
+- Log levels roughly map with minor differences.
+- Supports line, file, and function reporting via the data property.
+- 100% test coverage.
 
 ## Getting started
 
