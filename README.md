@@ -8,7 +8,6 @@ A [Sentry](https://sentry.com) logging backend for [SwiftLog](https://github.com
 
 ## Getting started
 
-Supports iOS 9+, macOS 10.10+, tvOS 9+, watchOS 2+. 
 Before using the logger you need to initialize the Sentry SDK.
 
 #### Adding the dependency
