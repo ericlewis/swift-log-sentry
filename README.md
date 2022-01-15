@@ -29,10 +29,6 @@ Before using the logger you need to initialize the Sentry SDK.
 and to your application/library target, add `"SentryLogHandler"` to your `dependencies`, e.g. like this:
 
 ```swift
-// Target syntax for Swift up to version 5.1
-.target(name: "BestExampleApp", dependencies: ["SentryLogHandler"]),
-
-// Target for Swift 5.2
 .target(name: "BestExampleApp", dependencies: [
     .product(name: "SentryLogHandler", package: "swift-log-sentry")
 ],
