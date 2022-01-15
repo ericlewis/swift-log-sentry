@@ -1,5 +1,7 @@
 # SwiftLogSentry
 
+[![Build & Test](https://github.com/ericlewis/swift-log-sentry/actions/workflows/ci.yml/badge.svg)](https://github.com/ericlewis/swift-log-sentry/actions/workflows/ci.yml)
+
 A [Sentry](https://sentry.com) logging backend for [SwiftLog](https://github.com/apple/swift-log).
 
 ## Getting started
